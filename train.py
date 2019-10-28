@@ -285,6 +285,7 @@ ani = animation.ArtistAnimation(fig, ims, interval=1000, repeat_delay=1000, blit
 
 HTML(ani.to_jshtml())
 
+
 # Grab a batch of real images from the dataloader
 real_batch = next(iter(dataloader))
 
